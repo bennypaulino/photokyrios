@@ -6,18 +6,18 @@
 
       <ol class="col-offset-xs-2 col-xs-8">
         <li class="well">
-          The sun will shine on the solar panel creating DC (direct current) power.
+          The sun will shine on the <%= link_to "solar panel", more_info_path(anchor: "panels"), class: "standard-link" %> creating DC (direct current) power.
         </li>
         <%= image_tag 'day.png', class: 'img-responsive center-block day-night' %>
         <li class="well">
-          The DC power is then stored into a battery.
+          The DC power is then stored into a <%= link_to "battery", more_info_path(anchor: "batts"), class: "standard-link" %>.
         </li>
 
         <li class="well">
-          The DC power will then get sent to a transformer that will change it from DC power to AC (alternating current) power that is used to power house-hold items.
+          The DC power will then get sent to a <%= link_to "transformer", more_info_path(anchor: "transformer"), class: "standard-link" %> that will change it from DC power to AC (alternating current) power that is used to power house-hold items.
         </li>
         <li class="well">
-          Power that is not used can be sold back to the grid.
+          Power that is not used can be sold back to the <%= link_to "the grid", more_info_path(anchor: "grid"), class: "standard-link" %>.
         </li>
         <%= image_tag 'night.png', class: 'img-responsive center-block day-night' %>
         <li class="well">
