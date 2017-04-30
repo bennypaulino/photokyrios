@@ -62,6 +62,9 @@ p {
   margin-bottom: 20px;
   color: $gray-medium-light;
 }
+#mainNav {
+  background: black;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -451,4 +454,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+li {
+  color: $gray-medium-light;
 }
