@@ -14,6 +14,17 @@
 
   <body>
     <%= render 'layouts/header' %>
+    
     <%= yield %>
+
+    <footer class="footer">
+      <nav>
+        <%= link_to 'PhotonKyrios', root_path %>
+        <ul class="list-inline">
+          <li><%#= link_to "About", about_path %></li>
+          <li><%= link_to "Github Repo", "https://github.com/bennypaulino/photokyrios", target: "_blank" %></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>

@@ -2,6 +2,38 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .day-night {
-  max-width: 50%;
+  max-width: 39%;
   margin-bottom: 2rem;
 }
+
+.how-it-works-list {
+  background: url('grid-sunset-1600px_wide.jpg');
+  padding: 30px 30px;
+  .well {
+      background-color: rgba(10, 10, 10, 0.34);
+  }
+  li {
+    color: #d8d8dc;
+  }
+}
+
+.why-solar {
+  background: url('bulb-black-bckgrnd-1600px-wide.jpg');
+  padding: 100px 30px;
+  li {
+    color: #a9a9a9;
+    .well {
+      background-color: rgba(50, 49, 66, 0.3);
+      border: #d27f15;
+    }
+  }
+}
+
+.play-btn {
+  margin-right: 8em;
+}
+
+/*li.well {
+  background-color: rgba(50, 49, 66, 0.3);
+  border: #d27f15;
+}*/

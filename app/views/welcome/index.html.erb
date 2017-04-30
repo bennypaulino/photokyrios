@@ -1,31 +1,80 @@
-<div class="container">
-  <section>
-    <h1>Easy Explanation</h1>
-    <div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-      <ol class="col-offset-xs-2 col-xs-8">
-        <li class="well">
-          The sun will shine on the <%= link_to "solar panel", more_info_path(anchor: "panels"), class: "standard-link" %> creating DC (direct current) power.
-        </li>
-        <%= image_tag 'day.png', class: 'img-responsive center-block day-night' %>
-        <li class="well">
-          The DC power is then stored into a <%= link_to "battery", more_info_path(anchor: "batts"), class: "standard-link" %>.
-        </li>
-
-        <li class="well">
-          The DC power will then get sent to a <%= link_to "transformer", more_info_path(anchor: "transformer"), class: "standard-link" %> that will change it from DC power to AC (alternating current) power that is used to power house-hold items.
-        </li>
-        <li class="well">
-          Power that is not used can be sold back to the <%= link_to "the grid", more_info_path(anchor: "grid"), class: "standard-link" %>.
-        </li>
-        <%= image_tag 'night.png', class: 'img-responsive center-block day-night' %>
-        <li class="well">
-          If you use more power than what the solar panels provide the electric company will continue to provide power that is not from the solar panels.
-        </li>
-      </ol>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="header-content">
+          <div class="header-content-inner">
+            <h1>PhotonKyrios is here to help you learn about solar energy, and even to calculate whether your solar panel(s) will handle your demands.</h1>
+            <a href="#download" class="btn btn-outline btn-xl page-scroll play-btn">Let's Play!</a>
+            <a href="#download" class="btn btn-outline btn-xl page-scroll">Gimme the Tool!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-5">
+          <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                  <div class="device">
+                      <div class="screen">
+                          <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                          <%= image_tag 'solar-panel_457x546.png', class: 'img-responsive' %>
+                      </div>
+                      <div class="button">
+                          <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
     </div>
-   
+  </div>
+</header>
+
+<div class="container">
+  <section class="why-solar">
+    <h1>Why Solar Energy?</h1>
+    <br>
+    <h3>Advantages</h3>
+    <ul>
+      <li>Maintainable and reusable energy.</li>
+      <li>Require little maintenance.</li>
+      <li>Reduces energy cost.</li>
+      <li>Require little maintenance.</li>
+      <li>Silent when creating energy.</li>
+      <li>Creates free energy (after recuperating initial investment.</li>
+    </ul>
+    <br>
+    <h3>Disadvantages</h3>
+    <ul>
+      <li>Panel can only produce maximum energy when pointed directly to the sun.</li>
+      <li>On cloudy days, the power created is reduced.</li>
+      <li>Solar power can’t be created at night.</li>
+      <li>There is an initial cost, but there is an eventual return on your investment.</li>
+    </ul>
+  </section>
+  <br>
+  <section class="how-it-works">
+    <h1>How It Works...</h1>
+    <br>
+    <ul class="col-xs-12 how-it-works-list">
+      <li class="well">
+        <i>1.&nbsp;&nbsp;</i>The sun will shine on the <%= link_to "solar panel", more_info_path(anchor: "panels"), class: "standard-link" %> creating DC (direct current) power.
+      </li>
+      <%= image_tag 'day.png', class: 'img-responsive center-block day-night' %>
+      <li class="well">
+        <i>2.&nbsp;&nbsp;</i>The DC power is then stored into a <%= link_to "battery", more_info_path(anchor: "batts"), class: "standard-link" %>.
+      </li>
+
+      <li class="well">
+        <i>3.&nbsp;&nbsp;</i>The DC power will then get sent to a <%= link_to "transformer", more_info_path(anchor: "transformer"), class: "standard-link" %> that will change it from DC power to AC (alternating current) power that is used to power house-hold items.
+      </li>
+      <li class="well">
+        <i>4.&nbsp;&nbsp;</i>Power that is not used can be sold back to the <%= link_to "the grid", more_info_path(anchor: "grid"), class: "standard-link" %>.
+      </li>
+      <%= image_tag 'night.png', class: 'img-responsive center-block day-night' %>
+      <li class="well">
+        <i>5.&nbsp;&nbsp;</i>If you use more power than what the solar panels provide the electric company will continue to provide power that is not from the solar panels.
+      </li>
+    </ul>
   </section>
 <!--   <section>
     <h1>Hello again</h1>
