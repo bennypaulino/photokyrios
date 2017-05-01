@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Developed by [Team PhotoKyrios](https://2017.spaceappschallenge.org/challenges/earth-and-us/you-are-my-sunshine/teams/photokyrios/project)
+- PhotoKyrios is derived from the Greek root words for Light & Master.
 
-Things you may want to cover:
+We chose [You Are My Sunshine](https://2017.spaceappschallenge.org/challenges/earth-and-us/you-are-my-sunshine/details) as part of the Space Apps challenge 2017 (a NASA incubator innovation program).
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Team Members
+- [Mario Martínez](https://github.com/MarioMartinez1997/EnergyConsumption_Tool)
+- [Benjamin Milian-Ortiz](https://github.com/milianbenja088321/Space-Apps-Game.git)
+- [Benny Paulino](https://github.com/bennypaulino)
+- Ramon Vazquez
+- Jacob Waag
