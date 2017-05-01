@@ -10,5 +10,5 @@ We chose [You Are My Sunshine](https://2017.spaceappschallenge.org/challenges/ea
 - [Mario Martínez](https://github.com/MarioMartinez1997/EnergyConsumption_Tool)
 - [Benjamin Milian-Ortiz](https://github.com/milianbenja088321/Space-Apps-Game.git)
 - [Benny Paulino](https://github.com/bennypaulino)
-- Ramon Vazquez
+- [Ramon Vazquez](https://github.com/rvazquez11)
 - Jacob Waag
